@@ -1,5 +1,5 @@
 hamburgerButton = document.querySelector('.hamburger-button');
-var imagenes = ['https://valentinvallewd.github.io/Valentin_Valle_WD/White_One/img/AFTER.PNG', 'https://valentinvallewd.github.io/Valentin_Valle_WD/White_One/img/BEFORE.PNG'];
+var imagenes = ['https://valentinvallewd.github.io/Valentin_Valle_WD/img/AFTER.PNG', 'https://valentinvallewd.github.io/Valentin_Valle_WD/img/BEFORE.PNG'];
 var indice = 1;
 var indice1 = 1;
 var indice2 = 1;
