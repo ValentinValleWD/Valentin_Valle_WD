@@ -162,6 +162,7 @@ header img{
   z-index:1;
 
 }
+
 .contenedor_ul{
   display: flex;
   flex-direction: column;
@@ -347,11 +348,12 @@ font-size: 30px;
 font-weight: 1;
 }
 .h1_precio_primero{
-margin-top: 70px;
+margin-top: 50px;
+font-size: 25px;
 }
 .precio h2 {
 background-color: transparent;
-margin-top: 20px;
+margin-top: 10px;
 font-size: 50px;
 font-weight: 1;
 }
@@ -748,6 +750,35 @@ form{
   font-weight: bold; /* Aumentar el grosor del tipo de fuente */
   color: #000; /* Cambiar el color a uno más oscuro si es necesario */
 }
+.h1_for{
+  margin-top: -20px;
+}
+
+.Promo{
+  border-bottom: 1px solid gray;
+}
+.h3_promo{
+  font-size: 35px;
+  margin-top: 30px;
+}
+
+.p_promo{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 1;
+}
+.b_promo{
+  color: #017fee;
+  font-weight:bold;
+}
+
+video{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 @media (min-width:1006px){
   .fa-brands {
     margin-top: 0px;
@@ -796,6 +827,7 @@ form{
   #ofrece h3{
     font-size: 36px;
   }
+  
   .container_offer {
     width:400px ;
     height: 200px;
@@ -896,4 +928,8 @@ form{
       margin-top: 24px;
       font-weight: 1;
     }
+    .h1_precio_primero{
+      margin-top: 70px;
+      font-size: 32px;
+      }
 }
